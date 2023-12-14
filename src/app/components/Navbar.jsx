@@ -33,7 +33,7 @@ function Navbar({ viewSwitcher }) {
           className="contactLink"
         >
           <div className="contactGroup">
-            <Image className="contactLogo" src="/github-mark.png"  width={25}  height={25} />
+            <Image className="contactLogo" src="/github-mark.png"  width={25}  height={25} alt="" />
             <p className="contactLabel">GitHub</p>
           </div>
           <div>
@@ -46,7 +46,7 @@ function Navbar({ viewSwitcher }) {
           className="contactLink"
         >
           <div className="contactGroup">
-            <Image className="contactLogo" src="/linkedin-logo-png-2026.png" width={25}  height={25} />
+            <Image className="contactLogo" src="/linkedin-logo-png-2026.png" width={25}  height={25} alt="" />
             <p className="contactLabel">LinkedIn</p>
           </div>
           <div>
@@ -59,7 +59,7 @@ function Navbar({ viewSwitcher }) {
           className="contactLink"
         >
           <div className="contactGroup">
-            <Image className="contactLogo" src="/mail-142.png" width={25}  height={25} />
+            <Image className="contactLogo" src="/mail-142.png" width={25}  height={25} alt="" />
             <p className="contactLabel">Email me</p>
           </div>
           <div>
@@ -72,7 +72,7 @@ function Navbar({ viewSwitcher }) {
           className="contactLink"
         >
           <div className="contactGroup">
-            <Image className="contactLogo" src="/figma.png" width={25}  height={25} />
+            <Image className="contactLogo" src="/figma.png" width={25}  height={25} alt="" />
             <p className="contactLabel">Resume</p>
           </div>
           <div>

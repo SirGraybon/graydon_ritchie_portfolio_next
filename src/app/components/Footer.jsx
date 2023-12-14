@@ -15,7 +15,7 @@ const Footer =() => {
       className="footer_contactLink"
     >
       <div className="footer_contactGroup">
-        <Image width={25}  height={25} className="footer_contactLogo" src={gitHubLogo} />
+        <Image width={25}  height={25} className="footer_contactLogo" src={gitHubLogo} alt="" />
         <p className="footer_contactLabel">GitHub</p>
       </div>
       <div>
@@ -28,7 +28,7 @@ const Footer =() => {
       className="contactLink"
     >
       <div className="footer_contactGroup">
-        <Image width={25}  height={25} className="footer_contactLogo" src={linkedInLogo} />
+        <Image width={25}  height={25} className="footer_contactLogo" src={linkedInLogo} alt="" />
         <p className="footer_contactLabel">LinkedIn</p>
       </div>
       <div>
@@ -41,7 +41,7 @@ const Footer =() => {
       className="footer_contactLink"
     >
       <div className="footer_contactGroup">
-        <Image width={25}  height={25}className="footer_contactLogo" src={emailLogo} />
+        <Image width={25}  height={25}className="footer_contactLogo" src={emailLogo} alt="" />
         <p className="footer_contactLabel">Email me</p>
       </div>
       <div>
@@ -54,7 +54,7 @@ const Footer =() => {
       className="footer_contactLink"
     >
       <div className="footer_contactGroup">
-        <Image width={25}  height={25} className="footer_contactLogo" src={figmaLogo} />
+        <Image width={25}  height={25} className="footer_contactLogo" src={figmaLogo} alt="" />
         <p className="footer_contactLabel">Resume</p>
       </div>
       <div>
