@@ -30,7 +30,7 @@ const About = () => {
             the role of a full-stack developer.
           </div>
           <div className="about_segment">
-            My journey is a testament to the belief that one's career trajectory
+            My journey is a testament to the belief that career trajectory
             is not set in stone. Armed with a foundation in HR, I bring a unique
             perspective to the world of coding—a fusion of technical prowess
             with an innate understanding of human dynamics. This blend has
@@ -47,7 +47,7 @@ const About = () => {
             the latest advancements to deliver cutting-edge solutions.
           </div>
           <div className="about_segment">
-            Let's build something extraordinary together!
+            Lets build something extraordinary together!
           </div>
         </div>
       </div>
