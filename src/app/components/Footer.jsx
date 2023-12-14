@@ -1,8 +1,8 @@
 import "../styles/footer.css";
-import gitHubLogo from "../assets/github-mark.png";
-import linkedInLogo from "../assets/linkedin-logo-png-2026.png";
-import emailLogo from "../assets/mail-142.png";
-import figmaLogo from "../assets/figma.png";
+// import gitHubLogo from "/github-mark.png";
+// import linkedInLogo from "/assets/linkedin-logo-png-2026.png";
+// import emailLogo from "/assets/mail-142.png";
+// import figmaLogo from "/assets/figma.png";
 
 
 const Footer =() => {

@@ -1,5 +1,6 @@
 import "../styles/about.css";
-import avatar from "../assets/avatar.jpg";
+import Image from "next/image";
+// import avatar from "../../public/assets/avatar.jpg";
 
 const About = () => {
   return (
@@ -8,7 +9,7 @@ const About = () => {
 
       <div className="about">
         <div className="spotlight">
-          <img className="avatar" src={avatar} alt="" />
+          <Image src="/avatar.jpg" className="avatar"  width={300}  height={300} />
 
           <div className="about_box">
             <div className="about_segment">

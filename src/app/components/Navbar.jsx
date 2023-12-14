@@ -1,9 +1,10 @@
 //IMPORTs
 import "../styles/Navbar.css";
-import gitHubLogo from "../assets/github-mark.png";
-import linkedInLogo from "../assets/linkedin-logo-png-2026.png";
-import emailLogo from "../assets/mail-142.png";
-import figmaLogo from "../assets/figma.png";
+import Image from "next/image";
+// import gitHubLogo from "../public/assets/github-mark.png";
+// import linkedInLogo from "../public/assets/linkedin-logo-png-2026.png";
+// import emailLogo from "../public/assets/mail-142.png";
+// import figmaLogo from "../public/assets/figma.png";
 
 //COMPONENT DEFINITION
 function Navbar({ viewSwitcher }) {
@@ -32,7 +33,7 @@ function Navbar({ viewSwitcher }) {
           className="contactLink"
         >
           <div className="contactGroup">
-            <img className="contactLogo" src={gitHubLogo} />
+            <Image className="contactLogo" src="/github-mark.png"  width={25}  height={25} />
             <p className="contactLabel">GitHub</p>
           </div>
           <div>
@@ -45,7 +46,7 @@ function Navbar({ viewSwitcher }) {
           className="contactLink"
         >
           <div className="contactGroup">
-            <img className="contactLogo" src={linkedInLogo} />
+            <Image className="contactLogo" src="/linkedin-logo-png-2026.png" width={25}  height={25} />
             <p className="contactLabel">LinkedIn</p>
           </div>
           <div>
@@ -58,7 +59,7 @@ function Navbar({ viewSwitcher }) {
           className="contactLink"
         >
           <div className="contactGroup">
-            <img className="contactLogo" src={emailLogo} />
+            <Image className="contactLogo" src="/mail-142.png" width={25}  height={25} />
             <p className="contactLabel">Email me</p>
           </div>
           <div>
@@ -71,7 +72,7 @@ function Navbar({ viewSwitcher }) {
           className="contactLink"
         >
           <div className="contactGroup">
-            <img className="contactLogo" src={figmaLogo} />
+            <Image className="contactLogo" src="/figma.png" width={25}  height={25} />
             <p className="contactLabel">Resume</p>
           </div>
           <div>
