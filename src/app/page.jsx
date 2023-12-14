@@ -1,7 +1,8 @@
+'use client'
 //IMPORTs
 
 //REACT
-// import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 //STYLEs
 import "./styles/App.css";
@@ -17,24 +18,24 @@ import Footer from "./components/Footer";
 function App() {
 
   //HELPER FUNCTIONs
-  //   const [width, setWidth] = useState(window.innerWidth);
+    const [width, setWidth] = useState(window.innerWidth);
 
-  // addEventListener("resize", (event) => {
-  //   setWidth(window.innerWidth);
-  // });
+  addEventListener("resize", (event) => {
+    setWidth(window.innerWidth);
+  });
 
   //RETURN
   return (
     <>
       <div className="container">
-        <Navbar />
+        {width > 1000 && <Navbar />}
         <div className="content_container">
           <div className="content">
-            {/* <div className="header">{width < 1000 && "Graydon Ritchie"} </div> */}
+            <div className="header">{width < 1000 && "Graydon Ritchie"} </div>
             <About />
             <SkillsList />
             <ProjectsPage />
-            {/* {width < 1000 && <Footer />} */}
+            {width < 1000 && <Footer />}
           </div>
         </div>
       </div>
