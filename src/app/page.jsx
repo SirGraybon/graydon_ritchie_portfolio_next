@@ -18,11 +18,12 @@ import Footer from "./components/Footer";
 function App() {
 
   //HELPER FUNCTIONs
-    const [width, setWidth] = useState(window.innerWidth);
+    const [width, setWidth] = useState();
 
   addEventListener("resize", (event) => {
     setWidth(window.innerWidth);
   });
+  useEffect(()=> setWidth(window.innerWidth))
 
   //RETURN
   return (
