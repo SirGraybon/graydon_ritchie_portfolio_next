@@ -20,10 +20,20 @@ function App() {
   //HELPER FUNCTIONs
     const [width, setWidth] = useState();
 
-  addEventListener("resize", (event) => {
-    setWidth(window.innerWidth);
-  });
-  useEffect(()=> setWidth(window.innerWidth))
+    useEffect(()=> {
+      const handleResize = () => setWidth(window.innerWidth)
+      
+      handleResize()
+      
+      
+      addEventListener("resize", (event) => {
+        handleResize();
+        
+      });
+    
+  }
+)
+    
 
   //RETURN
   return (
