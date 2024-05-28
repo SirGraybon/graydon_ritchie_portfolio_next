@@ -13,38 +13,19 @@ const About = () => {
 
           <div className="about_box">
             <div className="about_segment">
-              A full-stack developer with a foundation in human resources,
-              equipped with comprehensive skills in web development and a
-              passion for creating innovative digital solutions. Combining
-              technical expertise with a solid understanding of HR & business
-              principles to deliver user-centric and efficient web applications.
+            Versatile Frontend developer with experience in React/NextJS, Angular, TypeScript, and Node.js, with a focus on strong problem-solving and analytical thinking that promotes efficient project cooperation.
             </div>
           </div>
         </div>
         <div className="about_box_full">
           <div className="about_segment">
-            Having originally forged my professional path in Human Resources, my
-            passion for technology set me on a course of profound career
-            transformation. Fueled by an insatiable curiosity and a desire to
-            contribute meaningfully to the digital realm, I transitioned into
-            the role of a full-stack developer.
+          Starting my career in Human Resources, my passion for technology led to a major shift in my professional journey. Driven by curiosity and a desire to make a meaningful impact in the digital world, I made the transition to become a front-end developer.
           </div>
           <div className="about_segment">
-            My journey is a testament to the belief that career trajectory
-            is not set in stone. Armed with a foundation in HR, I bring a unique
-            perspective to the world of coding—a fusion of technical prowess
-            with an innate understanding of human dynamics. This blend has
-            proven invaluable in creating user-centric solutions that not only
-            meet the demands of the digital landscape but also resonate with
-            end-users on a human level.
+          My background gives me a unique perspective. A valuable combination of technical skills and an understanding of human dynamics, helping me to create user-centric solutions that end-users on a personal level.
           </div>
           <div className="about_segment">
-            As a full-stack developer, I find joy in the meticulous craft of
-            building seamless front-end interfaces that captivate users, as well
-            as architecting robust back-end systems that form the backbone of
-            innovative applications. Embracing the dynamic nature of the tech
-            industry, I continuously seek out new challenges and stay abreast of
-            the latest advancements to deliver cutting-edge solutions.
+          As a developer, I find joy in crafting seamless front-end interfaces that captivate users. I embrace the dynamic nature of the tech industry, and continuously seek new challenges and stay up-to-date with the latest advancements to deliver cutting-edge solutions.
           </div>
           <div className="about_segment">
             Lets build something extraordinary together!
